@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: calc-config
+  namespace: calculadora
+data:
+  APP_ENV: "kubernetes"
+  SPRING_PROFILES_ACTIVE: "prod"
